@@ -83,7 +83,7 @@ pengx :
   comments :
     provider : duoshuo
     duoshuo :
-      short_name : pengx17
+      short_name : cp_scorpio
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
