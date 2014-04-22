@@ -9,7 +9,7 @@ markdown: redcarpet
 
 excerpt_separator: <!-- more -->
 
-title : cpp!
+title : Hello World!
 tagline: OpenCV OpenCL 
 author : 
   name : cpscorpio
