@@ -3,7 +3,7 @@ layout: post
 keywords: blog
 description: blog
 title: "学习ruby/rails，安装rvm"
-categories: [rvm]
+categories: [ruby,rvm]
 tags: [ruby,rvm]
 group: rvm
 icon: file-o
