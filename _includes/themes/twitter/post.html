@@ -18,8 +18,8 @@
           {{ content }}
         </div>
         {% unless page.tags == empty %}
-        <ul class="tag_box inline list-inline">
-          <li><i class="icon-tags"></i></li>
+        <ul id="tag_info" class="tag_box inline list-inline">
+          <li><i class="fa fa-tags"></i></li>
           {% assign tags_list = page.tags %}
           {% include cpscorpio/tags_list %}
         </ul>
