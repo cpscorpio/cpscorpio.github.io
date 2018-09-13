@@ -1,8 +1,0 @@
-{% if site.safe and site.cpscorpio.sharing.provider and page.cpscorpio.sharing != false %}
-
-{% case site.cpscorpio.sharing.provider %}
-{% when "custom" %}
-  {% include custom/sharing %}
-{% endcase %}
-
-{% endif %}
