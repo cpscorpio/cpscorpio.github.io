@@ -1,0 +1,14 @@
+{% if site.safe and site.cpscorpio.analytics.provider and page.cpscorpio.analytics != false %}
+
+{% case site.cpscorpio.analytics.provider %}
+{% when "google" %}
+  {% include cpscorpio/analytics-providers/google %}
+{% when "getclicky" %}
+  {% include cpscorpio/analytics-providers/getclicky %}
+{% when "mixpanel" %}
+  {% include cpscorpio/analytics-providers/mixpanel %}
+{% when "custom" %}
+  {% include custom/analytics %}
+{% endcase %}
+
+{% endif %}
